@@ -1,0 +1,199 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: http://localhost:3000/admin
+      - img [ref=e7]
+    - generic [ref=e12]:
+      - img
+      - textbox "Search" [ref=e13]
+    - link "A" [ref=e17] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e18]:
+    - list [ref=e22]:
+      - listitem [ref=e23]:
+        - generic [ref=e26]: Quick links
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - link "Dashboard" [ref=e29] [cursor=pointer]:
+              - /url: http://localhost:3000/admin
+              - img [ref=e31]
+              - text: Dashboard
+          - listitem [ref=e34]:
+            - link "New Product" [ref=e35] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/products/new
+              - img [ref=e37]
+              - text: New Product
+          - listitem [ref=e40]:
+            - link "New Coupon" [ref=e41] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/coupon/new
+              - img [ref=e43]
+              - text: New Coupon
+      - listitem [ref=e45]:
+        - generic [ref=e48]: Catalog
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - link "Products" [ref=e51] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/products
+              - img [ref=e53]
+              - text: Products
+          - listitem [ref=e56]:
+            - link "Categories" [ref=e57] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/categories
+              - img [ref=e59]
+              - text: Categories
+          - listitem [ref=e61]:
+            - link "Collections" [ref=e62] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/collections
+              - img [ref=e64]
+              - text: Collections
+          - listitem [ref=e66]:
+            - link "Attributes" [ref=e67] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/attributes
+              - img [ref=e69]
+              - text: Attributes
+      - listitem [ref=e71]:
+        - generic [ref=e74]: Sale
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Orders" [ref=e77] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/orders
+              - img [ref=e79]
+              - text: Orders
+      - listitem [ref=e81]:
+        - generic [ref=e84]: Customer
+        - list [ref=e85]:
+          - listitem [ref=e86]:
+            - link "Customers" [ref=e87] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/customers
+              - img [ref=e89]
+              - text: Customers
+      - listitem [ref=e91]:
+        - generic [ref=e94]: Promotion
+        - list [ref=e95]:
+          - listitem [ref=e96]:
+            - link "Coupons" [ref=e97] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/coupons
+              - img [ref=e99]
+              - text: Coupons
+      - listitem [ref=e101]:
+        - generic [ref=e104]: CMS
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Pages" [ref=e107] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/pages
+              - img [ref=e109]
+              - text: Pages
+          - listitem [ref=e112]:
+            - link "Widgets" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/widgets
+              - img [ref=e115]
+              - text: Widgets
+      - listitem [ref=e117]:
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - link "Setting" [ref=e124] [cursor=pointer]:
+            - /url: http://localhost:3000/admin/setting/store
+        - list
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Create a new product" [level=1] [ref=e130]
+          - link "New Product" [ref=e132] [cursor=pointer]:
+            - /url: http://localhost:3000/admin/products/new
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - heading [level=3] [ref=e136]:
+              - group [ref=e138]:
+                - generic [ref=e139]:
+                  - textbox "Search" [ref=e141]
+                  - button "Status" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]: Status
+                    - img [ref=e145]
+                  - button "Product type" [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]: Product type
+                    - img [ref=e150]
+            - link "Clear filter" [ref=e154] [cursor=pointer]:
+              - /url: "#"
+          - table [ref=e155]:
+            - rowgroup [ref=e156]:
+              - row "Thumbnail Name Price SKU Stock Status" [ref=e157]:
+                - columnheader [ref=e158]:
+                  - checkbox [ref=e160]
+                - columnheader "Thumbnail" [ref=e161]:
+                  - generic [ref=e163]: Thumbnail
+                - columnheader "Name" [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: Name
+                    - button [ref=e168] [cursor=pointer]:
+                      - img [ref=e169]
+                - columnheader "Price" [ref=e172]:
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: Price
+                    - button [ref=e176] [cursor=pointer]:
+                      - img [ref=e177]
+                - columnheader "SKU" [ref=e180]:
+                  - generic [ref=e181]: SKU
+                - columnheader "Stock" [ref=e182]:
+                  - generic [ref=e183]:
+                    - generic [ref=e184]: Stock
+                    - button [ref=e186] [cursor=pointer]:
+                      - img [ref=e187]
+                - columnheader "Status" [ref=e190]:
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: Status
+                    - button [ref=e194] [cursor=pointer]:
+                      - img [ref=e195]
+            - rowgroup [ref=e198]:
+              - row
+              - row "UpdatedProduct176517053894040 UpdatedProduct176517053894040 $120.00 TP1765170538940 50" [ref=e199]:
+                - cell [ref=e200]:
+                  - checkbox [ref=e202]
+                - cell "UpdatedProduct176517053894040" [ref=e203]:
+                  - img "UpdatedProduct176517053894040" [ref=e205]
+                - cell "UpdatedProduct176517053894040" [ref=e206]:
+                  - link "UpdatedProduct176517053894040" [ref=e208] [cursor=pointer]:
+                    - /url: /admin/products/edit/39bbc4a0-5e9f-4d66-a242-c1e88ff2ad1b
+                - cell "$120.00" [ref=e209]
+                - cell "TP1765170538940" [ref=e210]
+                - cell "50" [ref=e211]
+                - cell [ref=e212]
+              - row "TestProduct1765170383835 TestProduct1765170383835 $120.00 TP1765170383835 50" [ref=e215]:
+                - cell [ref=e216]:
+                  - checkbox [ref=e218]
+                - cell "TestProduct1765170383835" [ref=e219]:
+                  - img "TestProduct1765170383835" [ref=e221]
+                - cell "TestProduct1765170383835" [ref=e222]:
+                  - link "TestProduct1765170383835" [ref=e224] [cursor=pointer]:
+                    - /url: /admin/products/edit/8a57fc7d-ccd1-4e65-b490-5b75314f0426
+                - cell "$120.00" [ref=e225]
+                - cell "TP1765170383835" [ref=e226]
+                - cell "50" [ref=e227]
+                - cell [ref=e228]
+              - row "UpdatedProduct1765169155352250 UpdatedProduct1765169155352250 $120.00 TP1765169155352 50" [ref=e231]:
+                - cell [ref=e232]:
+                  - checkbox [ref=e234]
+                - cell "UpdatedProduct1765169155352250" [ref=e235]:
+                  - img "UpdatedProduct1765169155352250" [ref=e237]
+                - cell "UpdatedProduct1765169155352250" [ref=e238]:
+                  - link "UpdatedProduct1765169155352250" [ref=e240] [cursor=pointer]:
+                    - /url: /admin/products/edit/1a3c1d0e-be39-45b7-9ec9-ce796be13082
+                - cell "$120.00" [ref=e241]
+                - cell "TP1765169155352" [ref=e242]
+                - cell "50" [ref=e243]
+                - cell [ref=e244]
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - generic [ref=e250]: Show
+              - spinbutton [ref=e253]: "20"
+              - generic [ref=e254]: per page
+            - generic [ref=e255]:
+              - combobox [ref=e258]:
+                - option "1" [selected]
+              - generic [ref=e260]: 3 records
+      - generic [ref=e262]:
+        - generic [ref=e263]: © 2022 Evershop. All Rights Reserved.
+        - generic [ref=e265]: Version 2.1.0
+```

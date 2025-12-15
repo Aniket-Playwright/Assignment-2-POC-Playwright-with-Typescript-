@@ -1,0 +1,326 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: http://localhost:3000/admin
+      - img [ref=e7]
+    - generic [ref=e12]:
+      - img
+      - textbox "Search" [ref=e13]
+    - link "A" [ref=e17] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e18]:
+    - list [ref=e22]:
+      - listitem [ref=e23]:
+        - generic [ref=e26]: Quick links
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - link "Dashboard" [ref=e29] [cursor=pointer]:
+              - /url: http://localhost:3000/admin
+              - img [ref=e31]
+              - text: Dashboard
+          - listitem [ref=e34]:
+            - link "New Product" [ref=e35] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/products/new
+              - img [ref=e37]
+              - text: New Product
+          - listitem [ref=e40]:
+            - link "New Coupon" [ref=e41] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/coupon/new
+              - img [ref=e43]
+              - text: New Coupon
+      - listitem [ref=e45]:
+        - generic [ref=e48]: Catalog
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - link "Products" [ref=e51] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/products
+              - img [ref=e53]
+              - text: Products
+          - listitem [ref=e56]:
+            - link "Categories" [ref=e57] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/categories
+              - img [ref=e59]
+              - text: Categories
+          - listitem [ref=e61]:
+            - link "Collections" [ref=e62] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/collections
+              - img [ref=e64]
+              - text: Collections
+          - listitem [ref=e66]:
+            - link "Attributes" [ref=e67] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/attributes
+              - img [ref=e69]
+              - text: Attributes
+      - listitem [ref=e71]:
+        - generic [ref=e74]: Sale
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Orders" [ref=e77] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/orders
+              - img [ref=e79]
+              - text: Orders
+      - listitem [ref=e81]:
+        - generic [ref=e84]: Customer
+        - list [ref=e85]:
+          - listitem [ref=e86]:
+            - link "Customers" [ref=e87] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/customers
+              - img [ref=e89]
+              - text: Customers
+      - listitem [ref=e91]:
+        - generic [ref=e94]: Promotion
+        - list [ref=e95]:
+          - listitem [ref=e96]:
+            - link "Coupons" [ref=e97] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/coupons
+              - img [ref=e99]
+              - text: Coupons
+      - listitem [ref=e101]:
+        - generic [ref=e104]: CMS
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Pages" [ref=e107] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/pages
+              - img [ref=e109]
+              - text: Pages
+          - listitem [ref=e112]:
+            - link "Widgets" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost:3000/admin/widgets
+              - img [ref=e115]
+              - text: Widgets
+      - listitem [ref=e117]:
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - link "Setting" [ref=e124] [cursor=pointer]:
+            - /url: http://localhost:3000/admin/setting/store
+        - list
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - link [ref=e129] [cursor=pointer]:
+            - /url: http://localhost:3000/admin/products
+            - img [ref=e131]
+          - heading "Editing TestProduct1765782962855" [level=1] [ref=e134]
+        - group [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - heading "General" [level=2] [ref=e141]
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]:
+                      - text: Product Name
+                      - generic [ref=e147]: "*"
+                      - button [ref=e149] [cursor=pointer]:
+                        - img [ref=e150]
+                    - textbox "Product Name *" [ref=e152]:
+                      - /placeholder: Enter product name
+                      - text: TestProduct1765782962855
+                  - generic [ref=e153]:
+                    - generic [ref=e154]:
+                      - generic [ref=e155]:
+                        - text: SKU
+                        - generic [ref=e156]: "*"
+                        - button [ref=e158] [cursor=pointer]:
+                          - img [ref=e159]
+                      - textbox "SKU *" [ref=e161]:
+                        - /placeholder: Enter SKU
+                        - text: TP1765782962855
+                    - generic [ref=e162]:
+                      - generic [ref=e163]:
+                        - text: Price
+                        - generic [ref=e164]: "*"
+                      - generic [ref=e165]:
+                        - spinbutton "Price *" [ref=e166]: "120"
+                        - generic: USD
+                    - generic [ref=e167]:
+                      - generic [ref=e168]:
+                        - text: Weight
+                        - generic [ref=e169]: "*"
+                        - button [ref=e171] [cursor=pointer]:
+                          - img [ref=e172]
+                      - generic [ref=e174]:
+                        - spinbutton "Weight *" [ref=e175]: "1.6"
+                        - generic: kg
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: Category
+                    - generic [ref=e179]:
+                      - text: Men
+                      - generic [ref=e180]:
+                        - link "Change" [ref=e181] [cursor=pointer]:
+                          - /url: "#"
+                        - link "Unassign" [ref=e182] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e183]:
+                    - generic [ref=e184]:
+                      - text: Tax Class
+                      - generic [ref=e185]: "*"
+                    - combobox "Tax Class *" [ref=e186]:
+                      - option "Taxable Goods" [selected]
+                  - generic [ref=e187]:
+                    - text: Description
+                    - generic [ref=e188]:
+                      - status [ref=e189]
+                      - generic [ref=e192]:
+                        - link [ref=e193] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e194]
+                        - link [ref=e196] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e197]
+                        - link [ref=e199] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e200]
+                        - link [ref=e202] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e203]
+                        - link [ref=e205] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e206]
+                        - link [ref=e209] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e210]
+                        - link [ref=e213] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e214]
+                        - link [ref=e216] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e217]
+              - generic [ref=e219]:
+                - heading "Media" [level=2] [ref=e221]
+                - generic [ref=e225]:
+                  - button [ref=e228] [cursor=pointer]:
+                    - img [ref=e229]
+                  - img [ref=e234] [cursor=pointer]
+              - generic [ref=e236]:
+                - heading "Search engine optimize" [level=2] [ref=e238]
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - generic [ref=e243]:
+                      - text: URL Key
+                      - generic [ref=e244]: "*"
+                    - textbox "URL Key *" [ref=e245]:
+                      - /placeholder: Enter URL Key
+                      - text: test-product-1765782962855
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - text: Meta Title
+                      - generic [ref=e248]: "*"
+                    - textbox "Meta Title *" [ref=e249]:
+                      - /placeholder: Enter Meta Title
+                      - text: Samsung Galaxy S25 Ultra
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: Meta Description
+                    - textbox "Meta Description" [ref=e252]:
+                      - /placeholder: Enter Meta Description
+                      - text: Latest Samsung Galaxy S25 Ultra with advanced features.
+              - generic [ref=e253]:
+                - heading "Variant" [level=2] [ref=e255]
+                - generic [ref=e260]:
+                  - text: This product has some variants like color or size?
+                  - link "Create a variant group" [ref=e261] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - heading "Product status" [level=2] [ref=e265]
+                - generic [ref=e268]:
+                  - group "Status *" [ref=e269]:
+                    - generic [ref=e270]:
+                      - text: Status
+                      - generic [ref=e271]: "*"
+                      - button [ref=e273] [cursor=pointer]:
+                        - img [ref=e274]
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - radio "Disabled" [ref=e278]
+                      - generic [ref=e279] [cursor=pointer]: Disabled
+                    - generic [ref=e280]:
+                      - radio "Enabled" [checked] [ref=e281]
+                      - generic [ref=e282] [cursor=pointer]: Enabled
+                - generic [ref=e285]:
+                  - group "Visibility *" [ref=e286]:
+                    - generic [ref=e287]:
+                      - text: Visibility
+                      - generic [ref=e288]: "*"
+                      - button [ref=e290] [cursor=pointer]:
+                        - img [ref=e291]
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - radio "Not visible individually" [ref=e295]
+                      - generic [ref=e296] [cursor=pointer]: Not visible individually
+                    - generic [ref=e297]:
+                      - radio "Catalog, Search" [checked] [ref=e298]
+                      - generic [ref=e299] [cursor=pointer]: Catalog, Search
+              - generic [ref=e300]:
+                - heading "Collections" [level=2] [ref=e302]
+                - generic [ref=e305]: No collections
+              - generic [ref=e306]:
+                - heading "Inventory" [level=2] [ref=e308]
+                - generic [ref=e311]:
+                  - group "Manage Stock *" [ref=e312]:
+                    - generic [ref=e313]:
+                      - text: Manage Stock
+                      - generic [ref=e314]: "*"
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - radio "Yes" [checked] [ref=e317]
+                      - generic [ref=e318] [cursor=pointer]: "Yes"
+                    - generic [ref=e319]:
+                      - radio "No" [ref=e320]
+                      - generic [ref=e321] [cursor=pointer]: "No"
+                - generic [ref=e324]:
+                  - group "Stock Availability *" [ref=e325]:
+                    - generic [ref=e326]:
+                      - text: Stock Availability
+                      - generic [ref=e327]: "*"
+                  - generic [ref=e328]:
+                    - generic [ref=e329]:
+                      - radio "In Stock" [checked] [ref=e330]
+                      - generic [ref=e331] [cursor=pointer]: In Stock
+                    - generic [ref=e332]:
+                      - radio "Out of Stock" [ref=e333]
+                      - generic [ref=e334] [cursor=pointer]: Out of Stock
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - text: Quantity
+                    - generic [ref=e339]: "*"
+                  - spinbutton "Quantity *" [ref=e340]: "50"
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - heading "Attribute group" [level=3] [ref=e344]
+                  - generic [ref=e347]:
+                    - generic [ref=e348]:
+                      - text: Attribute group
+                      - generic [ref=e349]: "*"
+                    - combobox "Attribute group *" [ref=e350]:
+                      - option "Default" [selected]
+                - generic [ref=e351]:
+                  - heading "Attributes" [level=3] [ref=e353]
+                  - table [ref=e355]:
+                    - rowgroup [ref=e356]:
+                      - row "Color Select an option" [ref=e357]:
+                        - cell "Color" [ref=e358]
+                        - cell "Select an option" [ref=e359]:
+                          - combobox [ref=e361]:
+                            - option "Select an option" [disabled] [selected]
+                            - option "White"
+                            - option "Black"
+                            - option "Yellow"
+                      - row "Size Select an option" [ref=e362]:
+                        - cell "Size" [ref=e363]
+                        - cell "Select an option" [ref=e364]:
+                          - combobox [ref=e366]:
+                            - option "Select an option" [disabled] [selected]
+                            - option "XXL"
+                            - option "XL"
+                            - option "SM"
+          - generic [ref=e367]:
+            - button "Cancel" [ref=e368] [cursor=pointer]
+            - button "Save" [ref=e369] [cursor=pointer]
+      - generic [ref=e371]:
+        - generic [ref=e372]: © 2022 Evershop. All Rights Reserved.
+        - generic [ref=e374]: Version 2.1.0
+```
