@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1","TC03 - Update Product Images","chromium","Mon Dec 08 10:36:36 IST 2025","skipped","Mon Dec 08 10:36:36 IST 2025","@crudProduct CRUD Operations","productCRUD.spec.ts","",""
-"","2","TC02 - Update Product Name","chromium","Mon Dec 08 10:36:36 IST 2025","skipped","Mon Dec 08 10:36:36 IST 2025","@crudProduct CRUD Operations","productCRUD.spec.ts","",""
-"","13468","has title","chromium","Mon Dec 08 10:36:14 IST 2025","passed","Mon Dec 08 10:36:28 IST 2025","","example.spec.ts","",""
-"","14803","TC01 - Create Product","chromium","Mon Dec 08 10:36:14 IST 2025","failed","Mon Dec 08 10:36:29 IST 2025","@crudProduct CRUD Operations","productCRUD.spec.ts","",""
-"","1","TC04 - Database Verification","chromium","Mon Dec 08 10:36:36 IST 2025","skipped","Mon Dec 08 10:36:36 IST 2025","@crudProduct CRUD Operations","productCRUD.spec.ts","",""
-"","13739","get started link","chromium","Mon Dec 08 10:36:14 IST 2025","passed","Mon Dec 08 10:36:28 IST 2025","","example.spec.ts","",""
